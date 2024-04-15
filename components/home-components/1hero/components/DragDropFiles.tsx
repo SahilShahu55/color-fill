@@ -61,7 +61,7 @@ const DragDropFiles: React.FC = () => {
       {files?(
         <div className=" w-[100%] h-[16rem] md:h-[18rem] lg:h-[20rem]  flex flex-col justify-center items-center text-center gap-5  ">
         {imageURL && 
-        <Image src={imageURL} alt="image" width={500}  height={500} className="w-[80%] h-36 rounded-lg" />
+        <Image src={imageURL} alt="image" width={500}  height={500} className="w-[60%] h-36 rounded-lg" />
         }
         <ul>
           {Array.from(files).map((file, idx) => <li className="text-xs font-medium" key={idx}>{file.name}</li>)}
